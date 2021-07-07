@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="handleClick">foo page</button>
+    <el-button @click="handleClick">foo page</el-button>
   </div>
 </template>
 
