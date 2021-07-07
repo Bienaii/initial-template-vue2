@@ -10,8 +10,6 @@ const constantRoutes = [
   {
     path: "/login", component: () => import("@views/Login/index")
   },
-  { path: "/foo", component: () => import("@views/Foo/index") },
-  { path: "/bar", component: () => import("@views/Bar/index") },
 ];
 
 // const asyncRoutes = []
