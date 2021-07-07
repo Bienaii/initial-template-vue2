@@ -59,9 +59,9 @@ export default {
   data() {
     return {
       loginForm: {
-        username: '',
-        password: '',
-        validation: '',
+        username: 'amdin',
+        password: '111111',
+        validation: '111111',
       },
       loginRules: {
         username: [{ required: true, trigger: 'blur', message: '请输入用户名' }],
