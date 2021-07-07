@@ -1,6 +1,5 @@
 <template>
-  <div>
-    Sidebar page
+  <div class="sidebar-container">
   </div>
 </template>
 
@@ -16,5 +15,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.sidebar-container {
+  width: 200px;
+  height: 100%;
+  background: #304156;
+}
 </style>

@@ -1,6 +1,5 @@
 <template>
-  <div>
-    Navbar page
+  <div class="navbar-container">
   </div>
 </template>
 
@@ -16,5 +15,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.navbar-container {
+  height: 78px;
+  background: lightblue;
+}
 </style>

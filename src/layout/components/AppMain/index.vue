@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="appmain-container">
     AppMain page
   </div>
 </template>
@@ -16,5 +16,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.appmain-container {
+  background: #f0f2f5;
+  width: 100%;
+}
 </style>
