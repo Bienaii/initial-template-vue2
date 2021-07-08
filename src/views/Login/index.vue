@@ -90,7 +90,7 @@ export default {
 
 <style scoped lang="scss">
 .login-container {
-  background-image: url('../../assets/login/login_background.png');
+  background-image: url('~@/assets/login/login_background.png');
   background-repeat: no-repeat;
   height: 100%;
   .login-form-content {

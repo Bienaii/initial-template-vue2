@@ -19,5 +19,8 @@ export default {
 .appmain-container {
   background: #f0f2f5;
   width: 100%;
+  position: relative;
+  overflow: hidden;
+  min-height: calc(100% - 84px);
 }
 </style>

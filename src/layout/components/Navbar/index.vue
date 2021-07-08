@@ -16,7 +16,7 @@ export default {
 
 <style scoped lang="scss">
 .navbar-container {
-  height: 78px;
+  height: 84px;
   background: lightblue;
 }
 </style>
