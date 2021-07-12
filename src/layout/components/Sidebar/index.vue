@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar-container" :class="{'is-folded': !isCollapse}">
+  <div class="sidebar-container">
     <el-menu 
       :collapse="isCollapse"
       default-active="1-4-1" 
@@ -82,9 +82,6 @@ export default {
     top: 50%;
     z-index: 10;
   }
-}
-.sidebar-container .is-folded {
-  // width: 40px;
 }
 </style>
 <style lang="scss">
