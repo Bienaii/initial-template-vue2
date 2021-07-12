@@ -1,10 +1,9 @@
 <template>
   <div class="navbar-container">
-    <div style="line-height: 84px;display: flex;align-items: center;justify-content: flex-end;">
-      <span style="color: #fff;font-size: 24px;">admin</span>
+    <div class="userinfo-container">
+      <span class="userinfo-name">administrator</span>
       <el-dropdown class="avatar-container right-menu-item hover-effect" trigger="click">
         <div class="avatar-wrapper">
-          <!-- <el-avatar style="margin: 0 15px;cursor: pointer;" src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" ></el-avatar> -->
           <img src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" class="user-avatar">
           <i class="el-icon-caret-bottom" />
         </div>
@@ -33,7 +32,7 @@ export default {
   },
   methods: {
     logout() {
-      
+
     }
   }
 }
@@ -43,6 +42,15 @@ export default {
 .navbar-container {
   height: 84px;
   background: #123d5b;
+  .userinfo-container {
+    line-height: 84px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .userinfo-name {
+    color: #afafaf;
+    font-size: 24px;
+  }
   .right-menu-item {
     display: inline-block;
     padding: 0 8px;
