@@ -1,8 +1,8 @@
 <template>
   <div class="app-wrapper">
-    <Sidebar></Sidebar>
-    <div class="right-wrapper">
-      <Navbar></Navbar>
+    <Navbar></Navbar>
+    <div class="bottom-wrapper">
+      <Sidebar></Sidebar>
       <AppMain></AppMain>
     </div>
   </div>
@@ -32,9 +32,9 @@ export default {
   position: relative;
   height: 100%;
   width: 100%;
-  display: flex;
-  .right-wrapper {
-    width: calc(100% - 210px);
+  .bottom-wrapper {
+    display: flex;
+    height: calc(100% - 84px);
   }
 }
 </style>
